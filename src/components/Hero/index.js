@@ -3,7 +3,7 @@ import { Popover, Transition } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import campPreview from '../../../public/assets/camp-gif.gif';
 import Image from 'next/image';
-import styles from './styles.module.css';
+import styles from './styles.module.scss';
 
 const navigation = [
 	{ name: 'Product', href: '#' },
@@ -35,7 +35,7 @@ export default function Hero() {
 						<div className="sm:text-center lg:text-left">
 							<h1 className="text-4xl tracking-tight font-extrabold text-gray-800 sm:text-5xl md:text-6xl">
 								<span className="block xl:inline">Acampamento Areté</span>{' '}
-								<span className="block text-green-600 xl:inline">
+								<span className="block text-green-600 xl:inline text-6xl">
 									aprovando as coisas excelentes.
 								</span>
 							</h1>

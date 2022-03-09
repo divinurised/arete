@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper';
+import styles from './styles.module.scss';
 
 import evertonImage from '../../../public/assets/pastors/everton.jpg';
 import williamImage from '../../../public/assets/pastors/william.jpg';
@@ -51,7 +52,7 @@ export default function Events() {
 	];
 	return (
 		<>
-			<section className="bg-gray-100">
+			<section className={`bg-gray-100 ${styles.container}`}>
 				<div className="py-12 lg:py-32 mx-auto lg:pr-0 lg:mr-0 sm:py-24 w-5/6">
 					<div className="grid grid-cols-1 lg:grid-cols-3 gap-x-16 gap-y-8">
 						<div className="max-w-xl space-y-8">
@@ -68,6 +69,7 @@ export default function Events() {
 
 						<div className="-mx-6 lg:col-span-2 lg:mx-0">
 							<Swiper
+								// navigation={true}
 								loop
 								spaceBetween={32}
 								slidesPerView={1}

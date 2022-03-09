@@ -6,7 +6,7 @@ export default function Footer() {
 			<div className="container px-6 py-24 mx-auto">
 				<div className="lg:flex">
 					<div className="w-full -mx-6 lg:w-2/5">
-						<div className="px-6">
+						<div className="px-12">
 							<div>
 								<a
 									href="#"
